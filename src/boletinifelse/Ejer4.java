@@ -12,7 +12,7 @@ public class Ejer4 {
 		int a;
 		int b;
 		// Le indico por consola al usuario lo que hará el progama y para que me de los datos.
-		System.out.println("Buenas, introduce dos números enteros y te los mostraré ordenadamente.");
+		System.out.println("Buenas, introduce dos números enteros y te los mostraré ordenadamente de menor a mayor.");
 		System.out.println("Primer Número: ");
 		// Entrada del usuario por teclado para introducir el primer número que se le pide.
 		a = sc.nextInt();
