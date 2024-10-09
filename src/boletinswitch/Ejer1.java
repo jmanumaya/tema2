@@ -33,7 +33,10 @@ public class Ejer1 {
 			}	
 			case 9, 10 -> {
 				System.out.println("SOBRESALIENTE"); // Si la nota es o 0, 1, 2, 3, 4, 5 imprime SOBRESALIENTE.
-			}	
+			}
+			default -> {
+				System.out.println("Recuerda!  introduce tu nota de 0 al 10 :)"); // Mensaje default por si se equivoca el usuario.
+			}
 				
 		}
 		//Cierro uso de escaner.
