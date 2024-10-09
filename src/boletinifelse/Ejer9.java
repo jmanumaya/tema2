@@ -35,7 +35,7 @@ public class Ejer9 {
 			System.out.println("GANA JUGADOR 2!!!");
 		}
 
-		// Cierro uso de escaner.
+		// Cierro uso de escaner
 		sc.close();
 	}
 
