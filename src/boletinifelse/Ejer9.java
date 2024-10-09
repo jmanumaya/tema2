@@ -27,9 +27,9 @@ public class Ejer9 {
 		// Hago las respectivas comprobaciones para saber que jugador gana comparandolas con las constantes que definí al principio y lo muestro por pantalla.
 		if (jugador1.equalsIgnoreCase(jugador2)) {
 			System.out.println("EMPATEEE!!!!");
-		} else if (jugador1.equalsIgnoreCase("PIEDRA") && jugador2.equalsIgnoreCase("TIJERAS")
-				||(jugador1.equalsIgnoreCase("PAPEL") && jugador2.equalsIgnoreCase("PIEDRA"))
-				||(jugador1.equalsIgnoreCase("TIJERAS") && jugador2.equalsIgnoreCase("PAPEL"))){
+		} else if (jugador1.equalsIgnoreCase(PIEDRA) && jugador2.equalsIgnoreCase(TIJERAS)
+				||(jugador1.equalsIgnoreCase(PAPEL) && jugador2.equalsIgnoreCase(PIEDRA))
+				||(jugador1.equalsIgnoreCase(TIJERAS) && jugador2.equalsIgnoreCase(PAPEL))){
 			System.out.println("GANA JUGADOR 1!!!");
 		} else {
 			System.out.println("GANA JUGADOR 2!!!");
