@@ -8,12 +8,12 @@ public class Ejer8 {
 		Scanner sc = new Scanner (System.in);
 		
 		// Creo la variable entera nota para albergar el valor que de el usuario.
-		int nota;
+		double nota;
 		
 		// Le indico al usuario que me introduzca su nota.
 		System.out.print("Dime tu nota: ");
 		// Recojo el dato por parte del usuario
-		nota = sc.nextInt();
+		nota = sc.nextDouble();
 		
 		// Hago las diferentes comprobaciones para imprimir uno u otro resultado por pantalla segun la nota que haya introducido.
 		if (nota >= 0 && nota < 5) {
