@@ -44,7 +44,7 @@ public class Ejer6 {
 			
 		} else {
 			
-			System.err.println("Valores introducidos no validos\nRecuerda puedes introducir hasta 24 horas, 59 minutos y 59 segundos");
+			System.err.println("Valores introducidos no validos\nRecuerda puedes introducir hasta 23 horas, 59 minutos y 59 segundos");
 		}
 	
 		sc.close();
