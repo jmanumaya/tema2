@@ -8,29 +8,37 @@ public class Ejer3 {
 	 * CON LA AYUDA DEL Integer.parseInt() EL OTRO DIA NO QUERIAS QUE LA USASE PARA PASAR A TEXTO SI NO RECUERDO MAL PERO LA TENIA QUE USAR PARA HACER LA COMPROBACIÓN ----
 	 * COMO HABIA PENSADO QUE PODIA HACERLA (NOSE SI HABRÁ OTRA HASTA DONDE HEMOS DADO PERO ESTA ES LA QUE SE ME HA OCURRIDO) LUEGO YA PUES LO NORMAL RECOJO EL MODULO Y DEMAS...*/
 	
+	// Valor de entrada: 26300577 (por ejemplo).
+	// Resultado esperado: La letra del número del DNI 26300577 es P
+	// Resultado obtenido: La letra del número del DNI 26300577 es P
+	
 	public static void main(String[] args) {
 		
+		// Creo las variables de tipo entero y String para albergar datos en ella durante el proceso del programa.
+		String numberFirst; // Contendrá el valor introducido por el usuario.
+		int numberSecond; // Contendrá el valor introducido por el usuario pero transformado a entero.
+		int numLetra; // Contendrá el número correspondiente a "X" letra.
 		
-		String numberFirst;
-		int numberSecond;
-		int numletra;
-		
-		
+		// Creo el escaner para poder recoger un valor por parte del usuario.
 		Scanner sc = new Scanner (System.in);
 		
-		
+		// Le indico al usuario y le digo que hará el programa.
 		System.out.println("Dime un número de DNI y te diré a que letra corresponde");
 		System.out.println("Numero: ");
+		// Recojo el dato introducido por el usuario (explicación del porque es de tipo String arriba).
 		numberFirst = sc.nextLine();
 		
+		// Compruebo si el número introducido por el usuario es de 8 cifras.
 		if (numberFirst.length() == 8) {
 			
+			// Transformo el dato del usuario a tipo int para poder operar con él posteriormente.
 			numberSecond = Integer.parseInt(numberFirst);
 			
-			numletra = numberSecond % 23;
+			// Doy el valor a numLetra del modulo.
+			numLetra = numberSecond % 23;
 		
-		
-			switch (numletra) {
+			// Imprimo un resultado según el valor que tenga numLetra (resto de la división del numero del DNI introducido por el usuario y 23)
+			switch (numLetra) {
 		
 			case 0 -> System.out.println("La letra del número del DNI " + numberFirst + " es " + "T");
 			case 1 -> System.out.println("La letra del número del DNI " + numberFirst + " es " + "R");
@@ -56,10 +64,12 @@ public class Ejer3 {
 			case 21 -> System.out.println("La letra del número del DNI " + numberFirst + " es " + "K");
 			case 22 -> System.out.println("La letra del número del DNI " + numberFirst + " es " + "E");
 			}
+		// Si no es un valor de 8 cifras imprimo el siguiente error para informar al usuario.
 		} else {
 			System.err.println("Valor introducido incorrecto\nRecuerda que el número del DNI está formado por 8 números");
 		}
-
+		
+		// Cierro uso de escaner.
 		sc.close();
 	}
 
