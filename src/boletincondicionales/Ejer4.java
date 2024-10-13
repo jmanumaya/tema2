@@ -21,25 +21,25 @@ public class Ejer4 {
             if (numero <= 19) {
                 // Combierto los numeros que estan entre el 1 y el 19 ya que se llaman de una forma única cada uno.
                 switch (numero) {
-                    case 1: resultado = "uno"; break;
-                    case 2: resultado = "dos"; break;
-                    case 3: resultado = "tres"; break;
-                    case 4: resultado = "cuatro"; break;
-                    case 5: resultado = "cinco"; break;
-                    case 6: resultado = "seis"; break;
-                    case 7: resultado = "siete"; break;
-                    case 8: resultado = "ocho"; break;
-                    case 9: resultado = "nueve"; break;
-                    case 10: resultado = "diez"; break; 
-                    case 11: resultado = "once"; break;
-                    case 12: resultado = "doce"; break;
-                    case 13: resultado = "trece"; break;
-                    case 14: resultado = "catorce"; break;
-                    case 15: resultado = "quince"; break;
-                    case 16: resultado = "dieciséis"; break;
-                    case 17: resultado = "diecisiete"; break;
-                    case 18: resultado = "dieciocho"; break;
-                    case 19: resultado = "diecinueve"; break;
+                    case 1 -> resultado = "uno";
+                    case 2 -> resultado = "dos";
+                    case 3 -> resultado = "tres";
+                    case 4 -> resultado = "cuatro";
+                    case 5 -> resultado = "cinco";
+                    case 6 -> resultado = "seis";
+                    case 7 -> resultado = "siete";
+                    case 8 -> resultado = "ocho";
+                    case 9 -> resultado = "nueve";
+                    case 10 -> resultado = "diez";
+                    case 11 -> resultado = "once";
+                    case 12 -> resultado = "doce";
+                    case 13 -> resultado = "trece";
+                    case 14 -> resultado = "catorce";
+                    case 15 -> resultado = "quince";
+                    case 16 -> resultado = "dieciséis";
+                    case 17 -> resultado = "diecisiete";
+                    case 18 -> resultado = "dieciocho";
+                    case 19 -> resultado = "diecinueve";
                 }
             } else {
                 /* Combierto a decenas y obtengo las unidades si es 20 me quedo con el 2 para saber que tengo que imprimir veinte en este caso 
@@ -48,46 +48,47 @@ public class Ejer4 {
                 unidades = numero % 10;
 
                 switch (decenas) {
-                    case 2: resultado = "veinte"; break;
-                    case 3: resultado = "treinta"; break;
-                    case 4: resultado = "cuarenta"; break;
-                    case 5: resultado = "cincuenta"; break;
-                    case 6: resultado = "sesenta"; break;
-                    case 7: resultado = "setenta"; break;
-                    case 8: resultado = "ochenta"; break;
-                    case 9: resultado = "noventa"; break;
+                    case 2 -> resultado = "veinte";
+                    case 3 -> resultado = "treinta";
+                    case 4 -> resultado = "cuarenta";
+                    case 5 -> resultado = "cincuenta";
+                    case 6 -> resultado = "sesenta";
+                    case 7 -> resultado = "setenta";
+                    case 8 -> resultado = "ochenta";
+                    case 9 -> resultado = "noventa";
                 }
                 
                 if (unidades != 0 && resultado.equals("veinte")) {
                 	resultado = "veinti";
                 	switch (unidades) {
-                    case 1: resultado += "uno"; break;
-                    case 2: resultado += "dos"; break;
-                    case 3: resultado += "tres"; break;
-                    case 4: resultado += "cuatro"; break;
-                    case 5: resultado += "cinco"; break;
-                    case 6: resultado += "seis"; break;
-                    case 7: resultado += "siete"; break;
-                    case 8: resultado += "ocho"; break;
-                    case 9: resultado += "nueve"; break;
+                    case 1 -> resultado += "uno";
+                    case 2 -> resultado += "dos";
+                    case 3 -> resultado += "tres";
+                    case 4 -> resultado += "cuatro";
+                    case 5 -> resultado += "cinco";
+                    case 6 -> resultado += "seis";
+                    case 7 -> resultado += "siete";
+                    case 8 -> resultado += "ocho";
+                    case 9 -> resultado += "nueve";
                 	}
                 
                 // Agrego " y " a resultado si hay unidades y si no es de decena 20 en este caso pues posteriormente le añado a resultado dichas unidades.
                 } else if (unidades != 0) {
                 	resultado += " y ";
                     switch (unidades) {
-                        case 1: resultado += "uno"; break;
-                        case 2: resultado += "dos"; break;
-                        case 3: resultado += "tres"; break;
-                        case 4: resultado += "cuatro"; break;
-                        case 5: resultado += "cinco"; break;
-                        case 6: resultado += "seis"; break;
-                        case 7: resultado += "siete"; break;
-                        case 8: resultado += "ocho"; break;
-                        case 9: resultado += "nueve"; break;
+                        case 1 -> resultado += "uno";
+                        case 2 -> resultado += "dos";
+                        case 3 -> resultado += "tres";
+                        case 4 -> resultado += "cuatro";
+                        case 5 -> resultado += "cinco";
+                        case 6 -> resultado += "seis";
+                        case 7 -> resultado += "siete";
+                        case 8 -> resultado += "ocho";
+                        case 9 -> resultado += "nueve";
                 }
             }
             }
+            
             System.out.println("El número " + numero + " es: " + resultado);
             sc.close();
         }
