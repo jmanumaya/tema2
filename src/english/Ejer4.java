@@ -16,7 +16,7 @@ public class Ejer4 {
 		
 		
 		System.out.println("You should guess the secret number");
-		System.out.println("Whitch is the number?");
+		System.out.println("What is the secret number?");
 		number = sc.nextInt();
 		
 		while (number != secretNumber) {
@@ -29,7 +29,7 @@ public class Ejer4 {
 				System.out.println("The secret number is less than your number");
 			}
 			
-			System.out.println("Whitch is the number?");
+			System.out.println("What is the secret number?");
 			number = sc.nextInt();
 		}
 		
