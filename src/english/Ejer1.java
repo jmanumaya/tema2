@@ -12,7 +12,7 @@ public class Ejer1 {
 		int num;
 		
 		// I question for the number.
-		System.out.print("Number: ");
+		System.out.print("Put a number (put negative number for go end): ");
 		// Collect the number
 		num = sc.nextInt();
 		
@@ -21,14 +21,14 @@ public class Ejer1 {
 			
 			// Conditional for the check if number  is EVEN.
 			if (num % 2 == 0) {
-				System.out.println("EVEN");
+				System.out.println("Your number is EVEN");
 				// If the don't is EVEN print ODD
 			} else {
-				System.out.println("ODD");
+				System.out.println("Your number is ODD");
 			}
 			
 			// Collect one more number.
-			System.out.print("Number: ");
+			System.out.print("Put a Number: ");
 			num = sc.nextInt();
 		}
 		
