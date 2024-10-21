@@ -6,8 +6,7 @@ public class Ejer6 {
 
 	public static void main(String[] args) {
 
-		// Declaro las constantes para luego usarlas para comparar lo que el usuario
-		// introduzca.
+		// Declaro las constantes para luego usarlas para comparar lo que el usuario introduzca.
 		final String PIEDRA = "PIEDRA"; // Esta vale "PIEDRA".
 		final String PAPEL = "PAPEL"; // Esta vale "PAPEL".
 		final String TIJERAS = "TIJERAS"; // Esta vale "TIJERAS".
@@ -15,8 +14,7 @@ public class Ejer6 {
 		// Creo el escaner para poder recoger datos de parte del usuario.
 		Scanner sc = new Scanner(System.in);
 
-		// Variables tipo String que va a contener la cadena de texto que el usuario
-		// introduzca.
+		// Variables tipo String que va a contener la cadena de texto que el usuario introduzca.
 		String jugador1 = ""; // Corresponde a lo que introduzca el jugador 1.
 		String jugador2 = ""; // Corresponde a lo que introduzca el jugador 2.
 		String jugar = "S"; // Corresponde a si quieren jugar o no.
@@ -24,7 +22,7 @@ public class Ejer6 {
 		// Bucle para jugar cuando digan que quieren seguir introduciendo "S"
 		while (jugar.equals("S")) {
 
-			// Bucle do para preguntarle al usuario 1 su elección y que diga una válida
+			// Bucle do para preguntarle al usuario 1 su elección y que diga una válida si o si.
 			do {
 
 				// Le indico a los jugadores lo que tienen que hacer, introducir y los turnos.
@@ -34,7 +32,7 @@ public class Ejer6 {
 
 			} while (!jugador1.equals("PIEDRA") && !jugador1.equals("PAPEL") && !jugador1.equals("TIJERAS"));
 
-			// Bucle do para preguntarle al usuario 2 su elección y que diga una válida
+			// Bucle do para preguntarle al usuario 2 su elección y que diga una válida si o si.
 			do {
 
 				// Le indico a los jugadores lo que tienen que hacer, introducir y los turnos.
@@ -44,8 +42,7 @@ public class Ejer6 {
 
 			} while (!jugador2.equals("PIEDRA") && !jugador2.equals("PAPEL") && !jugador2.equals("TIJERAS"));
 
-			// Hago las respectivas comprobaciones para saber que jugador gana comparandolas.
-			// con las constantes que definí al principio y lo muestro por pantalla.
+			// Hago las respectivas comprobaciones para saber que jugador gana comparandolas con las constantes que definí al principio y lo muestro por pantalla.
 			if (jugador1.equalsIgnoreCase(jugador2)) {
 				System.out.println("EMPATEEE!!!!");
 			} else if (jugador1.equalsIgnoreCase(PIEDRA) && jugador2.equalsIgnoreCase(TIJERAS)
