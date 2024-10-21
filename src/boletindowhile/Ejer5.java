@@ -10,11 +10,9 @@ public class Ejer5 {
 
 		Random rd = new Random();
 
-		int numSecret;
 		String estadoInicial;
 		String estadoJuego;
 		String jugar = "si";
-		int newNum;
 		int numMaquina = rd.nextInt(100) + 1;
 		int numMenor = 1;
 		int numMayor = 100;
@@ -69,6 +67,8 @@ public class Ejer5 {
 		}
 		
 		System.out.println("Gracias por jugar!");
+		
+		sc.close();
 
 	}
 
