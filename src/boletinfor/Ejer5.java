@@ -9,7 +9,7 @@ public class Ejer5 {
 		int num = 0;
 		
 		// Variable para albergar el resultado del factorial.
-		int result = 1;
+		long result = 1;
 		
 		// Creo el escaner para poder recojer datos por parte del usuario.
 		Scanner sc = new Scanner (System.in);
