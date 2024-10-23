@@ -6,10 +6,10 @@ public class Ejer3 {
 	public static void main(String[] args) {
 		
 		// Variable que albergará el dato introducido por el usuario.
-		int num;
+		int num = 0;
 		
 		// Constante que alberga el límite de números que puede meter el usuario.
-		final int limite = 10;
+		final int LIMITE = 10;
 		
 		// Variable que albergará la media de los números 
 		double media;
@@ -19,23 +19,20 @@ public class Ejer3 {
 		
 		// Le digo al usuario que tiene que hacer y que hará el programa.
 		System.out.println("Dime 10 números y te diré la media.");
-		System.out.println("Numéro: ");
-		// Recojo el primer número introducido por el usuario.
-		num = sc.nextInt();
 
 		/* Bucle for donde creo una nueva variable i que será la que irá 
 		 * incrementandose por cada vuelta para luego parar al obtener una suma total
 		 * de 10 números introducidos por el usuario.*/ 
-		for (int i = 1; i < limite; i++) {
+		for (int i = 0; i < LIMITE; i++) {
 			
-			System.out.println("Siguiente Numéro: ");
+			System.out.println("Numéro: ");
 			// voy sumandole a num cada número que va indicando el usuario.
 			num += sc.nextInt();
 			
 		}
 		
 		// Realizo la media de la suma de todos los números introducidos por el usuario.
-		media = (double) num / limite;
+		media = (double) num / LIMITE;
 		
 		// Imprimo el resultado por pantalla al usuario.
 		System.out.println("La media de tus números es: " + media);
