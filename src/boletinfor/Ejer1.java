@@ -13,6 +13,7 @@ public class Ejer1 {
 		
 		// Le indico al usuario que hará el programa y que tiene que hacer.
 		System.out.println("Dime un número y contaré desde 1 al número que me digas.");
+		System.out.print("Número: ");
 		// Recojo el dato por parte del usuario.
 		num = sc.nextInt();
 		

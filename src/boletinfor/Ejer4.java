@@ -16,9 +16,7 @@ public class Ejer4 {
 				
 				num += i;
 				cont++;
-			
 			}
-			
 		}
 		
 		// Imprimo el resultado total de la suma de los 10 primeros números impares.

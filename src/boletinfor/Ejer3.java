@@ -25,7 +25,7 @@ public class Ejer3 {
 		 * de 10 números introducidos por el usuario.*/ 
 		for (int i = 0; i < LIMITE; i++) {
 			
-			System.out.println("Numéro: ");
+			System.out.print("Numéro: ");
 			// voy sumandole a num cada número que va indicando el usuario.
 			num += sc.nextInt();
 			

@@ -16,7 +16,7 @@ public class Ejer5 {
 		
 		// Le indico al usuario que hará el programa y que tiene que hacer.
 		System.out.println("Dame un número y te diré su factorial.");
-		System.out.println("Numero: ");
+		System.out.print("Numero: ");
 		// Recojo el número por parte del usuario.
 		num = sc.nextInt();
 		
