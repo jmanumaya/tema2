@@ -35,7 +35,9 @@ public class Ejer1 {
 		
 		if (horas <=23 && minutos <=59 && segundos <=59) {
 			
-			for ( int i = 0; i <= incremento ; ++segundos, ++i) {
+			for ( int i = 0; i < incremento ; ++i) {
+				
+				++segundos;
 				
 				// Primero compruebo si los segundos es mayor a 59.
 				if (segundos > 59) {
