@@ -3,6 +3,10 @@ package boletinbucles;
 import java.util.*;
 
 public class Ejer9 {
+	
+	// Valor introducido: 456
+	// Resultado esperado: "El número 456 tiene 3 dígitos"
+	// Resultado obtenido: "El número 456 tiene 3 dígitos"
 
 	public static void main(String[] args) {
 		
@@ -31,7 +35,7 @@ public class Ejer9 {
 				num = sc.nextInt();
 			} while (num <= 0);
 		
-		/* Doy valor de num a num2 para ahora usarlo.
+		// Doy valor de num a num2 para ahora usarlo.
 		num2 = num;
 		
 		// Bucle para obtener los digitos del número indicado.
@@ -42,10 +46,6 @@ public class Ejer9 {
 			
 			// Sumo los digitos cada vez que realizo el bucle.
 			++digitos;
-		}
-		*/
-		for (num2 = num; num2 != 0; ++digitos) {
-			num2 /= 10;
 		}
 		
 		// Imprimo el resultado al usuario.

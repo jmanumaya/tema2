@@ -4,6 +4,26 @@ import java.util.Scanner;
 
 public class Ejer7 {
 	
+	// Valor introducido: 5
+	// Resultado esperado:
+		/*
+		 * 1
+		 * 12
+		 * 121
+		 * 12321
+		 * 1234321
+		 * 123454321
+		 * */
+	// Resultado obtenido:
+		/*
+		 * 1
+		 * 12
+		 * 121
+		 * 12321
+		 * 1234321
+		 * 123454321
+		 * */
+	
     public static void main(String[] args) {
     	
     	// Variable que contendrá el número indicado por el usuario.

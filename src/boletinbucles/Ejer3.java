@@ -3,6 +3,10 @@ package boletinbucles;
 import java.util.Scanner;
 
 public class Ejer3 {
+	
+	// Valores introducidos: 3 y 6
+	// Resultado esperado: "El MCD de 3 y 6 es: 3"
+	// Resultado obtenido: "El MCD de 3 y 6 es: 3"
 
 	public static void main(String[] args) {
 		

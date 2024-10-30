@@ -3,6 +3,10 @@ package boletinbucles;
 import java.util.Scanner;
 
 public class Ejer4 {
+	
+	// Valor introducido: 3 y 6
+	// Resultado esperado: "El MCM de 3 y 6 es: 6"
+	// Resultado obtenido: "El MCM de 3 y 6 es: 6"
 
     public static void main(String[] args) {
         
