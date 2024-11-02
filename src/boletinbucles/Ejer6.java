@@ -3,6 +3,24 @@ package boletinbucles;
 import java.util.Scanner;
 
 public class Ejer6 {
+	
+	// Valor introducido: 6
+	// Resultado esperado:
+	/*
+	   *
+	  * *
+	 * * *
+	* * * *
+   * * * * *
+   */
+	// Resultado obtenido: 
+	/*
+	   *
+	  * *
+	 * * *
+	* * * *
+   * * * * *
+   */
 
 	public static void main(String[] args) {
 		

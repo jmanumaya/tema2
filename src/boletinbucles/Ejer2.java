@@ -3,6 +3,10 @@ package boletinbucles;
 import java.util.*;
 
 public class Ejer2 {
+	
+	// Valor introducido: 13
+	// Resultado esperado: "hay 6 primos desde 1 a 13"
+	// Resultado obtenido: "hay 6 primos desde 1 a 13"
 
 	public static void main(String[] args) {
 

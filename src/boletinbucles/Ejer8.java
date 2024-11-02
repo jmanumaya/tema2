@@ -4,6 +4,11 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejer8 {
+	
+	// Valor introducido: 5 luego 4 luego 0
+	// Resultado esperado: "Fallo es menor" y luego "Total de números introducidos: 2" y "Total de números fallados: 1"
+	// Resultado obtenido: "Fallo es menor" y luego "Total de números introducidos: 2" y "Total de números fallados: 1"
+	
     public static void main(String[] args) {
         
         // Contador de números fallados.
