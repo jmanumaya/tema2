@@ -55,5 +55,5 @@ public class Ejer1 {
 		// Cierro uso de escaner.
 		sc.close();
 	}
-
+	
 }
