@@ -6,7 +6,7 @@ public class Ejer1 {
 
 	public static void main(String[] args) {
 		
-		// Variable que almacenará el número indicado el usuario para los lados del cuadrado.
+		// Variable que contendrá el número indicado el usuario para los lados del cuadrado.
 		int lados;
 		
 		// Creo el escaner para poder usarlo.
